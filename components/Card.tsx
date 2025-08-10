@@ -1,0 +1,1 @@
+export default function Card({title,value,unit}:{title:string,value:string|number,unit?:string}){return(<div className='rounded-2xl border p-4 bg-white shadow-sm'><div className='text-sm text-gray-500'>{title}</div><div className='text-2xl font-semibold'>{value}{unit? <span className='text-base text-gray-500 ml-1'>{unit}</span>:null}</div></div>)}
